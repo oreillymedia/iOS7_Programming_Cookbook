@@ -70,7 +70,7 @@
     
     if ([mediaType isEqualToString:(__bridge NSString *)kUTTypeMovie]){
         
-        NSURL *urlOfVideo = info[UIImagePickerControllerMediaType];
+        NSURL *urlOfVideo = info[UIImagePickerControllerMediaURL];
         
         NSLog(@"Video URL = %@", urlOfVideo);
         
